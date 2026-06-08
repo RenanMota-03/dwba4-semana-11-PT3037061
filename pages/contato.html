@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/icons/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Contato - IFSP</title>
+  </head>
+  <body>
+    <header id="cabecalho-componente"></header>
+
+    <main>
+      <h2>Mande uma mensagem</h2>
+      <form action="#" method="post">
+        <ul class="form-list">
+          <li><label>Nome</label><input type="text" class="input-inline" /></li>
+          <li>
+            <label>E-Mail</label><input type="email" class="input-full" />
+          </li>
+          <li>
+            <label>Telefone (99) 99999-9999</label
+            ><input type="tel" class="input-full" />
+          </li>
+          <li>
+            <label>Assunto</label>
+            <select class="input-full" style="background-color: #f2f2f2">
+              <option value="">-- Selecione --</option>
+              <option>Dúvida</option>
+              <option>Sugestão</option>
+            </select>
+          </li>
+          <li>
+            <label>Mensagem</label
+            ><textarea rows="4" class="input-full"></textarea>
+          </li>
+          <li style="list-style-type: none; margin-left: -20px">
+            <fieldset>
+              <legend>Opções de Resposta</legend>
+              <label style="margin-right: 15px"
+                >E-Mail <input type="checkbox"
+              /></label>
+              <label>Telefone <input type="checkbox" /></label>
+            </fieldset>
+          </li>
+        </ul>
+        <input type="submit" value="Enviar" class="btn-full" />
+      </form>
+    </main>
+
+    <footer id="rodape-componente"></footer>
+    <script src="../assets/js/components.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Home - IFSP</title>
+  </head>
+  <body>
+    <header id="cabecalho-componente"></header>
+
+    <main class="center">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="assets/images/A.png" style="width: 100%" alt="Banner 1" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="assets/images/B.jpg" style="width: 100%" alt="Banner 2" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="assets/images/C.jpg" style="width: 100%" alt="Banner 3" />
+        </div>
+
+        <div class="mySlides fade" style="padding: 20px 0">
+          <h2 class="titulo-menor">Conheça os desafios de inovação</h2>
+          <iframe
+            class="video-iframe"
+            src="https://www.youtube.com/embed/5g5LQe3m8Po"
+            title="Conheça os desafios de inovação"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <div style="text-align: center; margin-bottom: 30px">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <div class="grid-noticias">
+        <div class="grid-item">
+          <img src="assets/images/eleicoes.jpg" alt="Eleições IFSP" />
+          <h3>Radar IFSP: informe-se sobre as eleições do dia 13 de outubro</h3>
+          <p>
+            Todos os alunos e servidores podem votar; acesse aqui a cabine de
+            votação online do seu câmpus
+          </p>
+        </div>
+        <div class="grid-item">
+          <img
+            src="assets/images/snct.jpg"
+            alt="Semana Nacional de Ciência e Tecnologia"
+          />
+          <h3>IFSP: SNCT reúne atividades entre 19 e 24 de outubro</h3>
+          <p>
+            Programação reunirá initiatives para aproximar pesquisadores e
+            atividades culturais
+          </p>
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/residencia.png" alt="Residência Pedagógica" />
+          <h3>IFSP oferece bolsa aos voluntários da Residência Pedagógica</h3>
+          <p>Bolsa de R$ 400,00 será paga pelo período de três meses</p>
+        </div>
+        <div class="grid-item">
+          <img src="assets/images/maratona.jpeg" alt="Maratona InterIF" />
+          <h3>Inscrições abertas para a III Maratona InterIF</h3>
+          <p>
+            Maratona de programação do IFSP será realizada online, no dia 31 de
+            outubro; inscrições até 26 de outubro
+          </p>
+        </div>
+      </div>
+
+      <h2 class="titulo-menor">Conheça os desafios de inovação</h2>
+      <iframe
+        class="video-iframe"
+        src="https://www.youtube.com/embed/5g5LQe3m8Po"
+        title="Conheça os desafios de inovação"
+        allowfullscreen
+      ></iframe>
+    </main>
+
+    <footer id="rodape-componente"></footer>
+    <script src="assets/js/components.js"></script>
+    <script src="assets/js/slideshow.js"></script>
+  </body>
+</html>

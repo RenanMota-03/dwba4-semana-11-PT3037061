@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/icons/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <title>Eventos - IFSP</title>
+  </head>
+  <body>
+    <header id="cabecalho-componente"></header>
+
+    <main>
+      <h2>Inscreva-se</h2>
+      <form action="#" method="post">
+        <div class="form-group-block">
+          <label for="evento">Evento</label>
+          <select id="evento" name="evento">
+            <option value="">-- Selecione --</option>
+            <option value="voe">Voe sem asas</option>
+            <option value="junina">Festa junina</option>
+            <option value="tecnologia">Semana de tecnologia</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend>Informações de Acesso</legend>
+          <div class="form-group-inline">
+            <label>Usuário</label><input type="text" />
+          </div>
+          <div class="form-group-inline">
+            <label>Senha</label><input type="password" />
+          </div>
+          <div class="form-group-inline">
+            <label>Confirme a Senha</label><input type="password" />
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Informações Pessoais</legend>
+          <div class="form-group-inline">
+            <label>Nome Completo</label><input type="text" />
+          </div>
+          <div class="form-group-block">
+            <label>E-mail</label><input type="email" />
+          </div>
+          <div class="form-group-block">
+            <label>Celular (99) 99999-9999</label><input type="tel" />
+          </div>
+
+          <fieldset
+            style="margin-bottom: 20px; border: 1px solid #ccc; padding: 10px"
+          >
+            <legend>Sexo</legend>
+            <label style="margin-right: 15px"
+              >Masculino <input type="radio" name="sexo" style="width: auto"
+            /></label>
+            <label
+              >Feminino <input type="radio" name="sexo" style="width: auto"
+            /></label>
+          </fieldset>
+
+          <div class="form-group-inline">
+            <label>Data de Nascimento</label
+            ><input type="date" style="padding: 4px; width: 250px" />
+          </div>
+          <div class="form-group-inline">
+            <label>Cor Favorita</label
+            ><input type="color" style="width: 50px" />
+          </div>
+          <div class="form-group-block">
+            <label>Perfil no Github</label><input type="text" />
+          </div>
+        </fieldset>
+
+        <input type="submit" class="btn-full" value="Inscrever-se" />
+        <input type="reset" class="btn-full" value="Limpar" />
+      </form>
+    </main>
+
+    <footer id="rodape-componente"></footer>
+    <script src="../assets/js/components.js"></script>
+  </body>
+</html>
